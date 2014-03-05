@@ -1,0 +1,8 @@
+Tuntikirjanpito:
+4.3.2014:
+	15:00 - 16:00 : Node asennus / saatoa
+	16:00 - 18:30 : Projektin suunnittelu
+	18:30 - 19:00 : Tyokalujen selvitys
+	19:00 - 21:00 : Projektin tekeminen
+5.3.2014:
+	8:00 - 10:00 : CSS haslausta
