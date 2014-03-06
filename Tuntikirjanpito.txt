@@ -6,3 +6,7 @@ Tuntikirjanpito:
 	19:00 - 21:00 : Projektin tekeminen
 5.3.2014:
 	8:00 - 10:00 : CSS haslausta
+	10:00- 15:00 : Ongelmia gitin kanssa...
+	15:00- 16:00 : Ongelmat jatkuu.
+6.3.2014:
+	11:00-12:00 : Pushaan vihdoinkin setin gittiin
