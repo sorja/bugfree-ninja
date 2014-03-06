@@ -1,0 +1,39 @@
+{{#if photo}}
+    <!-- callout -->
+    <div class="row">
+        <div class="large-12 columns">
+            <div class="callout panel">
+                <p><strong>Vote for each image: Cute or not.</strong> Results can be seen from 'Score' page</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-6 large-2 columns"> 
+            <form action="./cute" method="post">
+
+            <input type="hidden" name="photo" value="{{photo.name}}" />
+            <input class="button" type="submit" value="Cute!" />
+
+            </form>
+        </div>
+
+        <div class="small-6 large-8 columns">
+            <!-- Hold image from public/photos -->      
+            <img src="photos/{{photo.name}}" width="530" height="420" alt="doge" />
+        </div>
+
+        <div class="small-12 large-2 columns">
+            <form action="./notcute" method="post">
+
+            <input type="hidden" name="photo" value="{{photo.name}}" />
+            <input class="button" type="submit" value="Not Cute!" />
+            </form>
+        </div>
+    </div>
+
+{{else}}
+    <!-- Display this if no images or all have been voted already -->
+    <h3>No more imgs, check: <a href="./standings">scoreboard</a>.</h3>
+
+{{/if}}

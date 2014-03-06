@@ -1,0 +1,21 @@
+{{#if standings}}
+    
+      <div class="row">
+    <div class="large-12 columns">
+      <div class="row">
+                 {{#each standings}}
+                <div class="large-3 small-6 columns">
+                  <img src="photos/{{name}}">
+     
+                  <div class="panel">
+                    <h5>Likes: {{this.likes}}</h5>
+                    <h6 class="subheader">Dislikes: {{this.dislikes}}</h6>
+                  </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+    
+{{/if}}
